@@ -60,6 +60,27 @@ body{
 .hand{
 	visibility: hidden;
 }
+.birth-container .title{
+	position:absolute;
+	margin-left:3%;
+	z-index:3;
+	margin-top:3%;
+	height:200px;
+	width:800px;
+}
+
+.birth-container .title .title-content,.birth-container .title-two .title-content {
+	color:rgba(0,0,0,.5);
+	font-size:200px;
+}
+.birth-container .title-two{
+	position:absolute;
+	margin-left:40%;
+	z-index:3;
+	margin-top:10%;
+	height:500px;
+	width:100px;
+}
 
 .name{
 	margin-left:45%;	
@@ -179,7 +200,7 @@ body{
 	
 }
 .school{
-	background-color:#cfc;
+	background-color:#66CDAA;
 	height:100%;
 }
 .senior-school{
@@ -189,6 +210,18 @@ body{
 	z-index:3;
 	position:absolute;
 	margin-top:20%;
+}
+.school .title{
+	position:absolute;
+	margin-left:50%;
+	z-index:3;
+	margin-top:5%;
+	height:500px;
+	width:200px;
+}
+.school .title .title-content {
+	color:rgba(0,0,0,.5);
+	font-size:200px;
 }
 .senior-school-content{
 	color:#FFF;
@@ -280,8 +313,8 @@ body{
 	z-index:4;
 	
 		
-	margin-left: 60%;
-	margin-top: 20%;
+	margin-left: 65%;
+	margin-top: 16%;
 	width:400px;
 	height:200px;
 	
@@ -355,9 +388,69 @@ body{
 .display-leg:hover .hand{
 	visibility:visible;
 }
+.email{
+	background-color:#f00;
+	margin-left:50%;	
+	height:100px;
+	width:100%;
+	z-index:3;
+	position:absolute;
+	margin-top:10%;
+}
+.email-content{
+	color:#FFF;
+	padding-top:5px;	
+	padding-left:80px;
+	
+}
+.triangle{
+	z-index:3;
+	position:absolute;
+	margin-top:30%;
+	margin-left:60%;
+	border-bottom:200px solid #3CB371;
+	border-right:200px solid rgba(0,0,0,0);
+	border-left:200px solid rgba(0,0,0,0);
+	
+}
+.tri-outer{
+	z-index:3;
+	position:absolute;
+	margin-top:47%;
+	margin-left:56.5%;
+	width:500px;
+	height:20px;
+	background-color:#3CB371;
+}
+.target .table{
+	z-index:3;
+	position:absolute;
+	margin-top:10%;
+	margin-right:30%;
+	
+}
+.target .table table{
+	width:200px;
+	height:200px;
+}
+.table-color{
+	background-color:#FFA500;
+	border-radius:50%;
+}
+.target .table table tr td{
+	padding:0px;
+}
+.target .table table{
+     border-collapse:collapse;
+}
 footer{
 	position:relative
 	display:block;
 	background-color:#e0e0e0;
+	
+}
+.footer-content{
 	color:#000;
+	padding-top:30px;
+	padding-bottom:30px;
 }
